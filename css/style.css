@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font family */
+@font-face {
+  font-family: black;
+  src: url(../Fonts/RedHatDisplay-Black.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../Fonts/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: medium;
+  src: url(../Fonts/RedHatDisplay-Medium.ttf);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../Images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  width: 375px;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card img {
+  width: 375px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card h1 {
+  font-family: black;
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.card p {
+  width: 90%;
+  color: hsl(224, 23%, 55%);
+  font-family: medium;
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+.card .plan-price-card {
+  width: 85%;
+  justify-content: flex-start;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card .plan-price-card .icon img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.card .plan-price-card .plan {
+  flex-direction: column;
+}
+
+.card .plan-price-card .plan .annual-plan {
+  color: hsl(223, 47%, 23%);
+  font-family: black;
+  font-size: 1rem;
+}
+
+.card .plan-price-card .plan .price {
+  color: hsl(224, 23%, 55%);
+  font-family: medium;
+  font-size: 15px;
+}
+
+.card .plan-price-card .change-btn a {
+  margin-left: 5rem;
+  color: hsl(245, 75%, 52%);
+  font-family: bold;
+  font-size: 14px;
+}
+
+.card .plan-price-card .change-btn a:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+
+.card .pay {
+  width: 85%;
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-family: bold;
+  font-size: 16px;
+  box-shadow: 0 15px 12px 0px hsl(245deg 75% 52% / 18%);
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card .pay:hover {
+  background-color: #766cf1;
+  box-shadow: 0 15px 12px 0px hsla(245, 83%, 68%, 18%);
+}
+
+.card .cancel {
+  color: hsl(224, 23%, 55%);
+  font-family: black;
+  font-size: 14px;
+}
+
+.card .cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 330px;
+  }
+
+  .card img {
+    width: 330px;
+  }
+  .card p {
+    width: 80%;
+  }
+
+  .card .plan-price-card .change-btn a {
+    margin-left: 2rem;
+  }
+}
