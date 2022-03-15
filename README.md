@@ -4,8 +4,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ordersummarycomponent-R8SJfHAKj)
-- Live Site URL: [Add live site URL here](https://merhanmostafa47.github.io/Order-summary-component/)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/ordersummarycomponent-R8SJfHAKj)
+- Live Site URL: [live site URL here](https://merhanmostafa47.github.io/Order-summary-component/)
 
 ### Author
 
