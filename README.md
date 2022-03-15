@@ -2,22 +2,11 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
-## Table of contents
-
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [Author](#author)
-
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ordersummarycomponent-R8SJfHAKj)
+- Live Site URL: [Add live site URL here](https://merhanmostafa47.github.io/Order-summary-component/)
 
+### Author
 
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [merhanmostafa](https://www.frontendmentor.io/profile/merhanmostafa47).
