@@ -35,7 +35,7 @@ body {
 }
 
 .card {
-  width: 375px;
+  width: 400px;
   flex-direction: column;
   text-align: center;
   background-color: #fff;
@@ -48,7 +48,7 @@ body {
 }
 
 .card img {
-  width: 375px;
+  width: 400px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .card .plan-price-card .change-btn a {
-  margin-left: 5rem;
+  margin-left: 6rem;
   color: hsl(245, 75%, 52%);
   font-family: bold;
   font-size: 14px;
